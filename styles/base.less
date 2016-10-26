@@ -49,6 +49,11 @@
 
 .storage.type { color: @green; }
 
+.storage.modifier {
+  color: @dark_blue;
+  background-color: @light_blue;
+  border-radius: 3px;  }
+
 .constant { color: @red;
 
   &.numeric,
@@ -146,12 +151,17 @@
 
   }
 
+  .bold,
   .heading {
     font-weight: bold;
     color: @black; }
 
   .list,
   .hr { color: @red; }
+
+  .italic {
+      font-style: italic;
+  }
 
   .quote {
     font-style: italic;
